@@ -18,20 +18,6 @@ This solution integrates various AI components to offer a seamless, personalized
 - Python Code Execution: Executes real-time Python code for precise insurance calculations.
 - Web Search Integration: Handles external queries using Tavily AI to provide broad coverage on insurance topics.
 
-## 📂 Project Structure
-
-├── src/
-│   ├── agents/
-│   │   └── repl_python_agent.py      # Python code execution agent
-│   └── nlu/
-│       └── nlu_query_executor.py     # NLU-driven SQL query execution
-├── data/
-│   └── user_profiles/                # User profiles data for recommendation
-├── diagrams/
-│   └── workflow_diagram.png          # Visual representation of project workflow
-├── README.md                         # Project documentation
-└── app.py                            # Main application script
-
 ## 🛠️ Technologies Used
 
 - LangGraph: Framework for building multi-agent systems and dialogue-based applications.
@@ -54,9 +40,5 @@ This diagram explains how each component works together to deliver personalized 
 - Python Execution: LLM-generated formulas are executed via the REPLPython agent to ensure accurate calculations.
 - Web Search: Tavily AI is invoked for answering general insurance-related questions beyond the system’s stored knowledge.
 
-## 🔗 Links
-
-Project Workflow Diagram
-Live Demo (Optional if hosted)
 
 
